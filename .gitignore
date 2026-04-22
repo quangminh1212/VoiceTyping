@@ -53,7 +53,15 @@ suppress_warnings.py
 suppress_warnings.pth
 
 # FFmpeg
-ffmpeg/
+ffmpeg/*
+!ffmpeg/ffmpeg.exe
+!ffmpeg/ffprobe.exe
+ffmpeg/*.dll
+ffmpeg/ffplay.exe
+
+# Local build workspace
+.release-build-venv/
+release-artifacts/
 
 # Thư mục Runtime
 __pycache__/
